@@ -3,4 +3,4 @@ from django.http import HttpResponse, HttpResponseRedirect
 # Create your views here.
 
 def index(request):
-    pass
+    return render(request, 'ecommerce_app/index.html')
